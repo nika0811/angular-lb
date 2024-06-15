@@ -1,0 +1,11 @@
+<p>user-list works!</p>
+<ul>
+    <li *ngFor="let user of users; index as i" [style.background-color]="i % 2 === 0 ? '#f5f5f5' : null">
+        {{ user.name }} - {{ user.email }}
+      </li>
+      
+      
+
+      
+  </ul>
+  
